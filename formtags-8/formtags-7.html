@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> formtagsdate24</title>
+        <link rel="icon" href="../photos/web.png" alt="web">
+    </head>
+    <body> <br><br>
+        <form>
+
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                  <center><td rowspan="2"> <label for="gender">Sex</label></td></center>  
+                    <td><input type="radio" name="gender" id="gender" value="Male">Male</td>
+                </tr>
+                <tr>
+                     <td><input type="radio" name="gender" id="gender" value="Male">Female</td>
+                </tr>
+                <tr>
+                 <td><label for="eye">Eye Color</label></td>
+                <td><select name="eyecolor">
+                    <option value="color">--Choose your color--</option>
+                    <option value="black">Black</option>
+                    <option value="brown">Brown</option>
+                    <option value="blue">Blue</option>
+                </td>
+               </tr>
+               <tr>
+                <td rowspan="2"><label for="check">Check all that apply</label></td>
+                <td><input type="checkbox" id="check" name="checkbox" multiple>Over 6 feet tall</td> 
+               </tr>
+                <tr><td><input type="checkbox" id="check" name="checkbox">Over 200 pounds</td></tr>
+            </table>
+            <label for="describe">Describe your athletic ability:</label> <br>
+            <textarea name="comments" id="describe" cols="36" rows="8"></textarea> <br>
+           <input type="submit" value="Entered my information"> <br><br>
+           <a href="./formtags-8.html">Nextpage</a>
+        </form>
+    </body>
+</html>
